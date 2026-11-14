@@ -62,8 +62,47 @@ input {
   color: var(--brass);
 }
 
+.brand {
+  margin: 0.35rem 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.brand-mark {
+  width: 2.75rem;
+  height: 2.75rem;
+  flex: none;
+  display: grid;
+  place-items: center;
+  border-radius: 0.8rem;
+  background: var(--felt);
+  box-shadow: 0 0 0 3px var(--walnut);
+}
+
+.brand-mark svg {
+  width: 72%;
+  height: 72%;
+}
+
+.brand-mark path,
+.brand-mark circle {
+  fill: none;
+  stroke-width: 6;
+  stroke-linecap: round;
+}
+
+.brand-mark path {
+  stroke: var(--amber);
+}
+
+.brand-mark circle {
+  stroke: var(--ice);
+}
+
 .mast h1 {
-  margin: 0.2rem 0 0;
+  margin: 0;
   font-family: var(--font-display), Georgia, serif;
   font-style: italic;
   font-weight: 560;

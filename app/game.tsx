@@ -102,7 +102,15 @@ export default function Game() {
     <main className="table">
       <header className="mast">
         <p className="kicker">Two players, one board</p>
-        <h1>Square Off</h1>
+        <div className="brand">
+          <span className="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64">
+              <path d="M13 14 L29 30 M29 14 L13 30" />
+              <circle cx="40" cy="40" r="11" />
+            </svg>
+          </span>
+          <h1>Square Off</h1>
+        </div>
         <p className="lede">Chalk a line of three before the other one does.</p>
       </header>
 
